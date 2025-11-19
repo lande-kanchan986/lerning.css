@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: relative;
+            -webkit-animation: moving;
+            animation: moving;
+            animation-duration: 10s;
+            animation-iteration-count: 2;
+            animation-direction: reverse;
+            animation-delay: 5s;
+           /* border-radius: 50%;*/
+        }
+        @keyframes moving {
+            0%{background-image:url("images/event.jpeg") ;}
+            25% { background-image:url("images/bionature.jpeg") ;}
+            50% {background-image:url("images/icons.png") ;}
+            75% { background-image:url("images/construct1.jpeg");}
+            100% {background-image:url("images/images\ \(1\).png") ;}
+
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>

@@ -7,13 +7,17 @@ h2{
 }
  
 .t_right{
-    text-align: right;
+    text-align: right ;
 }
 .t_center{
-    text-align: center;
+    text-align: center ;
 }
 .t_decor_under{
-_text-decoration: underline;
+_text-decoration: underline ;
 }
+.tdecover-over{
+    text-decoration:line-through ;
+}
+
 
 
